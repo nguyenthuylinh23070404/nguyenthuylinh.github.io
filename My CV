@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Thùy Linh - CV</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fc;
+      color: #333;
+    }
+    .cv-container {
+      width: 80%;
+      max-width: 900px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 {
+      font-size: 36px;
+      color: #333;
+      margin: 0;
+    }
+    header h2 {
+      font-size: 18px;
+      color: #666;
+      margin-top: 5px;
+    }
+    h3 {
+      font-size: 24px;
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      color: #666;
+    }
+    .contact-info div {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+    <header>
+      <div>
+        <h1>Nguyễn Thùy Linh</h1>
+        <h2>Sinh viên năm 2</h2>
+      </div>
+    </header>
+
+    <section class="contact-info">
+      <div>Email: ntlinh261005@gmail.com</div>
+      <div>Địa chỉ: Hà Nội, Việt Nam</div>
+    </section>
+
+    <section>
+      <h3>Giới thiệu bản thân</h3>
+      <p>Sinh viên năm 2 trường Quốc tế - Đại học Quốc gia Hà Nội. Đam mê tìm hiểu công nghệ và phát triển bản thân trong lĩnh vực lập trình và thiết kế web.</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Nguyễn Thùy Linh | All rights reserved</p>
+    </footer>
+  </div>
+
+</body>
+</html>
