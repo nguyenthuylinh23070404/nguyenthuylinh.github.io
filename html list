@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML List</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f7fc;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 600px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #f9f9f9;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateY(-5px);
+      background-color: #f1f1f1;
+    }
+
+    li::before {
+      content: "✔️";
+      margin-right: 10px;
+    }
+
+    .list-item {
+      font-size: 18px;
+      color: #555;
+    }
+    ol {
+      padding-left: 20px;
+      font-size: 18px;
+    }
+
+    ol li {
+      margin-bottom: 10px;
+    }
+    ul ul {
+      background-color: #f3f3f3;
+      padding-left: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>HTML List Example</h1>
+    <ul>
+      <li>
+        <span class="list-item">Item 1 - This is an example of a list item</span>
+      </li>
+      <li>
+        <span class="list-item">Item 2 - You can add more items like this</span>
+      </li>
+      <li>
+        <span class="list-item">Item 3 - Hover over any item to see the effect</span>
+        <ul>
+          <li>Sub-item 1 - A nested item in the list</li>
+          <li>Sub-item 2 - Nested items have different styles</li>
+        </ul>
+      </li>
+      <li>
+        <span class="list-item">Item 4 - Customize the list as you like</span>
+      </li>
+    </ul>
+    <h2>Ordered List Example</h2>
+    <ol>
+      <li>First item in the ordered list</li>
+      <li>Second item in the ordered list</li>
+      <li>Third item in the ordered list</li>
+    </ol>
+  </div>
+
+</body>
+</html>
