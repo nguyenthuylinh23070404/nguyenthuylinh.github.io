@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruits List</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    .fruit-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+
+    .fruit-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .fruit-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .fruit-card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .fruit-card h2 {
+      font-size: 24px;
+      color: #333;
+      margin-top: 15px;
+    }
+
+    .fruit-card p {
+      color: #555;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Fruit List</h1>
+    <div class="fruit-list">
+      <div class="fruit-card">
+        <img src="https://via.placeholder.com/150?text=Apple" alt="Apple">
+        <h2>Apple</h2>
+        <p>A delicious fruit with a crisp texture and sweet-tart flavor.</p>
+      </div>
+      <div class="fruit-card">
+        <img src="https://via.placeholder.com/150?text=Banana" alt="Banana">
+        <h2>Banana</h2>
+        <p>Known for its soft texture and sweet flavor, bananas are rich in potassium.</p>
+      </div>
+      <div class="fruit-card">
+        <img src="https://via.placeholder.com/150?text=Mango" alt="Mango">
+        <h2>Mango</h2>
+        <p>Mangoes are juicy, tropical fruits that are loved for their sweet and tangy taste.</p>
+      </div>
+      <div class="fruit-card">
+        <img src="https://via.placeholder.com/150?text=Strawberry" alt="Strawberry">
+        <h2>Strawberry</h2>
+        <p>Strawberries are bright red, juicy, and have a sweet yet slightly tart taste.</p>
+      </div>
+      <div class="fruit-card">
+        <img src="https://via.placeholder.com/150?text=Watermelon" alt="Watermelon">
+        <h2>Watermelon</h2>
+        <p>A refreshing fruit, watermelon is known for its high water content and sweet taste.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
